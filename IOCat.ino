@@ -36,7 +36,7 @@ void loop(){
 }
 
 void tweetMessage(){
-    Twitter twitter("3384059656-Fh8EjuIeoFRLTYLGCcruVbUedtsG3jsAeAeNEhq");// Place our key here.
+    Twitter twitter("YOUR KEY HERE");// Place our key here.
     
     String stringMsg = "Meow! Watch me play at http://iocat.local:8080/ "; //Message to be sent, be sure to replace with the address of your streaming server add the milis to make the messge unique.
     stringMsg += count;
